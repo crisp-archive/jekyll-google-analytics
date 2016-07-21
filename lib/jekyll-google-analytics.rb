@@ -9,7 +9,7 @@ module Jekyll
     def render(context)
       tracking_id = context.registers[:site].config["ga"]["tracking_id"]
 
-      return "" if track_id.empty?
+      return "" if tracking_id.empty?
       
       html = <<-EOB
 <script>
