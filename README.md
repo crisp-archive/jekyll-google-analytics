@@ -21,7 +21,7 @@ A Liquid tag plugin for Jekyll
       - jekyll-google-analytics
 
     ga:
-      username: crispgm
+      tracking_id: UA-50708664-1
     ```
 
 3. Add the following in your site's template(s):
